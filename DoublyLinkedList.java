@@ -120,7 +120,7 @@ public class DoublyLinkedList implements LinkedList{
         }
     }
 
-    @Override
+    @Override //Pengerjaan M. Akhmal Danadyaksa
     public Object get(int index) {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException("Index " + index + " di luar batas (size: " + size + ")");
@@ -132,7 +132,7 @@ public class DoublyLinkedList implements LinkedList{
         return current.data;
     }   
     
-    @Override
+    @Override //Pengerjaan M. Akhmal Danadyaksa
     public int indexOf(Object targetData) {
         Node2P current = head;
         int index = 0;
@@ -145,7 +145,8 @@ public class DoublyLinkedList implements LinkedList{
         }
         return -1;
     }
-    @Override
+    
+    @Override //Pengerjaan M. Akhmal Danadyaksa
     public void printReverse() {
         Node2P current = tail;
         while (current != null) {
@@ -155,7 +156,7 @@ public class DoublyLinkedList implements LinkedList{
         System.out.println();
     }
         
-    @Override
+    @Override //Pengerjaan M. Akhmal Danadyaksa
     public boolean remove(Object targetData) {
         Node2P current = head;
         while (current != null) {
@@ -178,7 +179,7 @@ public class DoublyLinkedList implements LinkedList{
         return false;
     }
     
-    @Override
+    @Override //Pengerjaan M. Akhmal Danadyaksa
     public Object[] toArray() {
         Object[] array = new Object[size];
         Node2P current = head;
