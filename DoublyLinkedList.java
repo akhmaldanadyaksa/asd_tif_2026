@@ -177,6 +177,7 @@ public class DoublyLinkedList implements LinkedList{
         }
         return false;
     }
+    
     @Override
     public Object[] toArray() {
         Object[] array = new Object[size];
