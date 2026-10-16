@@ -157,7 +157,7 @@ public class SinglyLinkedList implements LinkedList{
         printReverseHelper(node.pointer);
         System.out.println(node.data);
     }
-    @Override
+    @Override //Pengerjaan Muhammad Akmal
     public boolean remove(Object targetData) {
         if (isEmpty()) {
         return false;
@@ -188,7 +188,7 @@ public class SinglyLinkedList implements LinkedList{
 
         return false;
     }
-    @Override
+    @Override //Pengerjaan Muhammad Akmal
     public Object[] toArray() {
         Object[] array = new Object[size];
         Node currentNode = head;
